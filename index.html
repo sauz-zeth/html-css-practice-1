@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+    }
+
+    .image {
+      width: 90px;
+      border-radius: 50%;
+      margin: 30px;
+    }
+
+    .name {
+      font-family: "Inter";
+      font-weight: 400;
+      color: white;
+      font-size: 28px;
+      margin: 0px;
+    }
+
+    .address {
+      font-family: 'Inter';
+      font-weight: 600;
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+      margin: 7px;
+    }
+
+    .description {
+      font-family: 'Inter';
+      font-weight: 300;
+      color: hsl(0, 0%, 70%);
+      font-size: 15px;
+      margin: 25px;
+    }
+    .window {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      
+      
+      background-color: hsl(0, 0%, 12%);
+      text-align: center;
+      border-radius: 2%;
+
+      width: 350px;
+      height: 600px;
+
+    }
+
+    .sbutton {
+      color: white;
+      font-size: 14px;
+      width: 300px;
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      background-color: hsl(0, 0%, 20%);
+      transition: background-color 0.5s ease;
+      transition: color 0.5s ease;
+    }
+
+    .sbutton:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class = "window">
+  <img class="image" src = "assets/images/avatar-jessica.jpeg"/>
+
+  <p class = "name">Jessica Randall</p>
+  <p class = "address">London, United Kingdom</p>
+  <p class = "description">"Front-end developer and avid reader."</p>
+
+  
+  <div class = "social">
+    <p><button class = "sbutton">GitHub</button></p>
+    <p><button class = "sbutton">Frontend Mentor</button></p>
+    <p><button class = "sbutton">LinkedIn</button></p>
+    <p><button class = "sbutton">Twitter</button></p>
+    <p><button class = "sbutton">Instagram</button></p>
+  </div>
+</div>
+
+</body>
+</html>
